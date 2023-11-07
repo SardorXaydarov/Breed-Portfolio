@@ -1,0 +1,70 @@
+.contact-header{
+    position: fixed;
+    background-color: #8034C3;
+    width: 100%;
+    box-shadow: 0px 3px 29px 0px rgb(84, 7, 132);
+    z-index: 10; 
+}
+.contact{
+    padding-top: 6.25rem;
+}
+
+.contact .title{
+    font-size: 1.7rem;
+}
+.contact-header__brand{
+    display: inline-block;
+}
+.contact-header__brand img{
+    width: 9rem;
+    vertical-align: middle;
+    height: 1.8rem;
+}
+.main-navigation a{
+    color: #fff;
+    font-size: .8rem;
+}
+::placeholder{
+    color: #ff0000;
+}
+.contact form{
+    padding-top: 1.25rem;
+}
+textarea, input{
+    width: 100%;
+    padding: 1.56rem;
+    margin: 0.625rem 0;
+    outline: none;
+    border: 1px solid #f0e9ff;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    padding-left: 1.125rem;
+    font-size: 1.2rem;
+    background: transparent;
+    font-weight:bolder;
+    color: rgb(11, 229, 11);
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+
+.contact textarea{
+    height: 9.3rem !important;
+    overflow: auto;
+    resize: vertical;
+}
+
+.half-row{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.contact__firstname{
+    padding-right: 1rem;
+}
+.contact__email{
+    padding-left: 1rem;
+}
+.contact .main-section__btn{
+    margin-top: 2.5rem;
+}
