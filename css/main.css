@@ -7,7 +7,9 @@
     background-size: cover;
     min-height: 55.625rem;
 }
-
+a{
+    text-decoration: none;
+}
 .to-uppercase{
     text-transform:uppercase;
 }
